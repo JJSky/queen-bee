@@ -1,0 +1,19 @@
+﻿{
+    "manifest_version": 2,
+    "name": "Queen Bee",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "css": [
+                "bee.css"
+            ],
+            "js": [
+                "jquery-3.3.1.min.js",
+                "content.js"
+            ]
+        }
+    ]
+}
