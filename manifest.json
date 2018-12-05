@@ -1,7 +1,16 @@
 ﻿{
     "manifest_version": 2,
     "name": "Queen Bee",
+    "description": "Prepare yourselves, the bell has tolled. Shelter your weak, your young, and your old. Each of you shall pay the final sum. Cry for mercy, the reckoning has come!",
     "version": "0.1",
+    "icons": { "16": "images/bee16.png",
+        "48": "images/bee48.png",
+       "128": "images/bee128.png" 
+    },
+    "browser_action": {
+        "default_title": "Google Mail",
+        "default_popup": "options.html"
+    },
     "content_scripts": [
         {
             "matches": [

@@ -1,21 +1,21 @@
 * {
     font-family: "Comic Sans MS" !important;
-    font-weight: bold !important;
+    /* font-weight: bold !important;
     color: fuchsia !important;
     border-radius: 10px;
     
     text-shadow:-2px 2px 1px #ff9900, -3px 3px 1px #ffff00, -4px 4px 1px #33cc00, -5px 5px 1px #00cccc, -6px 6px 1px #0066cc, -7px 7px 1px #9933cc, 1px -1px 1px #ff0000, 2px -2px 1px #ff9900, 3px -3px 1px #ffff00, 4px -4px 1px #33cc00, 5px -5px 1px #00cccc, 6px -6px 1px #0066cc, 7px -7px 1px #9933cc, -1px 0px 1px #ff0000, -2px 0px 1px #ff9900, -3px 0px 1px #ffff00, -4px 0px 1px #33cc00, -5px 0px 1px #00cccc, -6px 0px 1px #0066cc, -7px 0px 1px #9933cc, 1px 0px 1px #ff0000, 2px 0px 1px #ff9900, 3px 0px 1px #ffff00, 4px 0px 1px #33cc00, 5px 0px 1px #00cccc, 6px 0px 1px #0066cc, 7px 0px 1px #9933cc, 0px 1px 1px #ff0000, 0px 2px 1px #ff9900, 0px 3px 1px #ffff00, 0px 4px 1px #33cc00, 0px 5px 1px #00cccc, 0px 6px 1px #0066cc, 0px 7px 1px #9933cc, 0px -1px 1px #ff0000, 0px -2px 1px #ff9900, 0px -3px 1px #ffff00, 0px -4px 1px #33cc00, 0px -5px 1px #00cccc, 0px -6px 1px #0066cc, 0px -7px 1px #9933cc;
     
     font-style: italic;
-    
+     
     -webkit-animation-name: death;
     -webkit-animation-duration: 6s;
     -webkit-animation-iteration-count: infinite;
     -moz-animation-name: mozzy-death;
     -moz-animation-duration: 6s;
-    -moz-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;*/
 }
-
+/*
 @-webkit-keyframes death {
     0% {background-color:red; left:0px; top:0px;}
     25% {background-color:yellow; left:10px; top:0px;}
@@ -31,41 +31,42 @@
     75% {background-color:green; left:0px; top:10px;}
     100% {background-color:red; left:0px; top:0px;}
 }
-
-h1, h2 {
+*/
+h1, h2, h3, img {
     -webkit-animation-name: decapitation;
-    -webkit-animation-duration: 4s;
+    -webkit-animation-duration: 3.5s;
     -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
     -moz-animation-name: mozzy-decapitation;
-    -moz-animation-duration: 4s;
+    -moz-animation-duration: 3.5s;
     -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
 }
 
 @-webkit-keyframes decapitation {
     0% {transform:rotate(0deg);}
-    10% {transform:rotate(36deg);}
+    /* 10% {transform:rotate(36deg);}
     20% {transform:rotate(72deg);}
     30% {transform:rotate(108deg);}
     40% {transform:rotate(144deg);}
     50% {transform:rotate(180deg);}
     60% {transform:rotate(216deg);}
-    70% { transform:rotate(252deg);}
+    70% {transform:rotate(252deg);}
     80% {transform:rotate(288deg);}
-    90% {transform:rotate(324deg);}
+    90% {transform:rotate(324deg);} */
     100% {transform:rotate(360deg);}
 }
 
 @-moz-keyframes mozzy-decapitation {
     0% {transform:rotate(0deg);}
-    10% {transform:rotate(36deg);}
+    /* 10% {transform:rotate(36deg);}
     20% { transform:rotate(72deg);}
     30% {transform:rotate(108deg);}
     40% {transform:rotate(144deg);}
     50% {transform:rotate(180deg);}
     60% {transform:rotate(216deg);}
-    70% { transform:rotate(252deg);}
+    70% {transform:rotate(252deg);}
     80% {transform:rotate(288deg);}
-    90% {transform:rotate(324deg);}
+    90% {transform:rotate(324deg);} */
     100% {transform:rotate(360deg);}
 }
-
